@@ -197,7 +197,7 @@ void xxfree(void* ptr) {
 }
 
 /**
- * Get the available size of an allocated object. This function should return the amount of space
+ * Get the available size of an allocated object. This function returns the amount of space
  * that was actually allocated by malloc, not the amount that was requested.
  * \param ptr   A pointer somewhere inside the allocated object
  * \returns     The number of bytes available for use in this object
